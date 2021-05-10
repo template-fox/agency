@@ -9,10 +9,10 @@ module.exports = {
       colors: {
         background: colors.blueGray[50],
         theme: colors.blueGray[800],
-        focused: colors.blueGray[700],
-        light: colors.blueGray[600],
-        lighter: colors.blueGray[400],
-        lightest: colors.blueGray[200],
+        focused: colors.blueGray[600],
+        light: colors.blueGray[500],
+        lighter: colors.blueGray[200],
+        lightest: colors.blueGray[100],
       }
     },
   },
