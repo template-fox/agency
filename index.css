@@ -25,19 +25,19 @@ h6 {
 }
 
 .flex-normal {
-    @apply flex items-center mx-auto w-full justify-between 
+    @apply flex items-center mx-auto w-full justify-between;
 }
 
 header a {
-    @apply text-lg text-focused
+    @apply text-lg text-focused;
 }
 
 a {
-    @apply text-sm text-focused
+    @apply text-sm text-focused;
 }
 
 input {
-    @apply flex-grow p-2 text-gray-700 outline-none
+    @apply flex-grow p-2 text-gray-700 outline-none;
 }
 
 
@@ -46,23 +46,23 @@ button.theme {
 }
 
 p {
-    @apply text-light
+    @apply text-light;
 }
 
 section {
-    @apply py-4
+    @apply py-4;
 }
 
 section > div{
-    @apply max-w-6xl mx-auto px-8
+    @apply max-w-6xl mx-auto px-8;
 }
 
 .thumb {
-    @apply bg-lightest text-theme px-8 py-4 rounded-lg w-full
+    @apply bg-lightest text-theme px-8 py-4 rounded-lg w-full;
 }
 
 .thumb.active {
-    @apply bg-theme text-lightest px-8 py-4 rounded-lg
+    @apply bg-theme text-lightest px-8 py-4 rounded-lg;
 }
 
 .bg-theme {
