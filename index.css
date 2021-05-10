@@ -3,3 +3,36 @@
 @tailwind utilities;
 
 [x-cloak] { display: none; }
+
+h2 {
+    @apply text-focused font-bold text-4xl;
+}
+
+h3 {
+    @apply text-focused font-bold text-3xl;
+}
+
+h4 {
+    @apply text-focused font-semibold text-xl;
+}
+
+h5 {
+    @apply font-semibold text-light;
+}
+
+.flex-normal {
+    @apply flex items-center mx-auto w-full justify-between 
+}
+
+header a {
+    @apply text-lg text-focused
+}
+
+a {
+    @apply text-sm text-focused
+}
+
+input {
+    @apply flex-grow p-2 text-gray-700 outline-none
+}
+
