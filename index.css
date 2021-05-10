@@ -54,11 +54,11 @@ section {
 }
 
 section > div{
-    @apply max-w-6xl mx-auto
+    @apply max-w-6xl mx-auto px-8
 }
 
 .thumb {
-    @apply bg-lightest text-theme px-8 py-4 rounded-lg
+    @apply bg-lightest text-theme px-8 py-4 rounded-lg w-full
 }
 
 .thumb.active {
